@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "jszip": "https://esm.sh/jszip@3.10.0",
+    "nano_jsx": "https://deno.land/x/nano_jsx@v0.0.33/mod.ts",
+    "asserts": "https://deno.land/std@0.148.0/testing/asserts.ts"
+  }
+}

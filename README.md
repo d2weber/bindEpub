@@ -6,10 +6,10 @@ for example usage. It is heavily inspired by
 [epubGen](https://github.com/cyrilis/epub-gen). The implementation refrains from
 writing temporary files.
 
-### Issues
+### Known issues
 
+- Uses the nano-jsx library for xml-templating purposes, that's unfortunate
 - Throws when running due to jsx namespace problem. (Tests seem to work though.)
-- Produces invalid .opf file, due to the use of nano-jsx for xml-templating.
-  It's constrained to the html specification, where `<meta>` tags are null
-  elements.
+- Produces invalid .opf file: templating is constrained to the html specification,
+  where `<meta>` tags are null elements
 - EPUB2 templates are missing
